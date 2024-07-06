@@ -1,4 +1,5 @@
 {
+  "homepage": "https://techedgerunner.github.io/",
   "name": "simplefolio",
   "version": "1.0.1",
   "private": "true",
@@ -6,6 +7,8 @@
   "source": "src/index.html",
   "scripts": {
     "start": "parcel",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "build": "parcel build"
   },
 
